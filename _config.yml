@@ -1,13 +1,13 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-baseurl: ""
-url: "http://yourdomain.com"
-twitter_username: jekyllrb
-github_username:  jekyll
+title: Help Me Out
+email: vinicius.m.do.carmo@gmail.com
+author: "Vinícius do Carmo"
+description: "Blog que tem como enfoque ajudar os alunos de computação da <a href='http://ufc.br'>UFC</a> e aos estudantes de computação em geral."
+url: "http://help-me-out.herokuapp.com"
+twitter_username: vinimdocarmo
+github_username:  vinimdocarmo
 
 # Build settings
 markdown: kramdown
-permalink: pretty
-exclude: [ Gemfile, Gemfile.lock, Procfile, vendor, gems]
+permalink: /post/:title
+exclude: [Gemfile, Gemfile.lock, Procfile, vendor, gems]
