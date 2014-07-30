@@ -8,7 +8,7 @@
       </a>  
     </div>
 
-    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+    <h2>{{ site.short_description }}</h2>
     
     <div class="centered">
       <a href="/about" class="button breathe-top"><i class="fa fa-info-circle"></i> Sobre esse site</a>
@@ -16,7 +16,8 @@
 
     <div class="header-sticky-bottom">
       <hr class="fancy"></hr>
-      <a href="https://twitter.com/intent/user?screen_name={{ site.twitter_username }}" class="button"><i class="fa fa-twitter"></i> Twitter</a>
+      <a href="https://twitter.com/{{ site.twitter_username }}" class="button" target="_blank"><i class="fa fa-twitter"></i> Twitter</a>
+      <a href="https://github.com/{{ site.github_project }}" class="button" target="_blank"><i class="fa fa-github"></i> Github</a>
       <a href="{{ "/feed.xml" | prepend: site.baseurl }}" class="button"><i class="fa fa-rss"></i> RSS</a>
     </div>
 
