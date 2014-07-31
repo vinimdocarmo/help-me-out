@@ -34,7 +34,7 @@ hr {
   border-width: 1px;
 }
 
-a { color: inherit; text-decoration: none; }
+a { text-decoration: none; }
 
 /* Utility */
 
@@ -86,8 +86,7 @@ hr.fancy {
   padding: 24px;
 }
 
-.site-header h2 {
-  font-size: 24px;
+.site-header h3 {
   margin-bottom: 24px;
   text-align: center;
 }
@@ -267,7 +266,6 @@ hr.fancy {
 .post-content h6 {
   line-height: 1;
   font-weight: 300;
-  margin: 40px 0 20px;
 }
 
 .post-content h2 {
