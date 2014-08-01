@@ -3,7 +3,7 @@ layout: post
 title:  "Coloboração acadêmica, essa é a ideia!"
 date:   2014-07-31 11:17:00
 author: "Vinícius do Carmo"
-tags: "Hello World"
+tags: helloworld
 ---
 
 Hello, World!!!!
