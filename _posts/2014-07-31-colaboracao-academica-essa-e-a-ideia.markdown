@@ -13,7 +13,7 @@ Bom, nesse primeiro post responderei algumas perguntas que descrevem o que é o 
 
 ###O que é o Help Me Out?
 
-O Help Me Out é um projeto que tem como objetivo principal ajudar os estudantes do curso de computação a terem um melhor desempenho ao longo do curso. O blog será composto de postagens a respeito das disciplinas do curso de computação da [UFC](http://ufc.br). Essas postagens poderão lhe ajudar de alguma forma a entender melhor um determinado assunto. E o mais legal de tudo isso? VOCÊ TAMBÉM PODERÁ AJUDAR SEUS COMPANHEIROS DE CURSO! Você domina um determinado assunto de uma disciplina que já fez, ou está fazendo, e acha que poderá ser útil para outras pessoas? Então [escreva uma postagem](#) no Help Me Out.
+O Help Me Out é um projeto que tem como objetivo principal ajudar os estudantes do curso de computação a terem um melhor desempenho ao longo do curso. O blog será composto de postagens a respeito das disciplinas do curso de computação da [UFC](http://ufc.br). Essas postagens poderão lhe ajudar de alguma forma a entender melhor um determinado assunto. E o mais legal de tudo isso? VOCÊ TAMBÉM PODERÁ AJUDAR SEUS COMPANHEIROS DE CURSO! Você domina um determinado assunto de uma disciplina que já fez, ou está fazendo, e acha que poderá ser útil para outras pessoas? Então [escreva uma postagem]({{ site.be_an_author }}) no Help Me Out.
 
 ###De onde surgiu a ideia?
 
@@ -41,7 +41,7 @@ Esse semestre em particular estarei postando sempre que possível sobre as segui
 * CK0114 - Fundamentos de bancos de dados
 * CB0515 - Introdução à lógica matemática
 
-Não se esqueça que você também pode ajudar escrevendo sua própria postagem ou coloborando com o projeto. Clique [aqui](#) para mais detalhes.
+Não se esqueça que você também pode ajudar escrevendo sua própria postagem ou coloborando com o projeto. Clique [aqui]({{ site.be_an_author }}) para mais detalhes.
 
 Se você tem alguma dúvida, pergunta ou crítica pra fazer, sinta-se a vontade para comentar abaixo ou entre em contato.
 

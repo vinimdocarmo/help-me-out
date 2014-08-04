@@ -5,6 +5,7 @@ author: "Vinícius do Carmo"
 short_description: "Facilidade no aprendizado. Pequenas explições. O Help que você precisa para sua vida acadêmica e profissional."
 description: "Blog que tem como enfoque ajudar os alunos de computação da <a href='http://ufc.br'>UFC</a> e aos estudantes de computação em geral."
 url: "http://help-me-out.herokuapp.com"
+be_an_author: "https://github.com/vinimdocarmo/help-me-out/blob/master/CONTRIBUTING.md#seja-um-autor"
 twitter_username: helpmeout_comp
 github_project:  vinimdocarmo/help-me-out
 excerpt_separator: ""
