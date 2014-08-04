@@ -7,7 +7,7 @@ author_contact: "http://vinimdocarmo.github.io"
 tags: helloworld
 ---
 
-Hello, World! Com o maior (e porque não, o mais legal) cliché do mundo computacional, começo escrevendo esse post.
+Hello, World! Com o maior (e porque não, o mais legal) clichê do mundo computacional, começo escrevendo esse post.
 
 Bom, nesse primeiro post responderei algumas perguntas que descrevem o que é o projeto, como ele surgiu e o que você, como estudante de computação, tem a ver com isso.<!--more-->
 
