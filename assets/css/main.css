@@ -228,9 +228,9 @@ hr.fancy {
   line-height: 1;
 }
 
-.posts .post-date {
+.posts .post-info {
   display: block;
-  font-size: 15px;
+  font-size: 17px;
   color: #818181;
 }
 
@@ -248,7 +248,7 @@ hr.fancy {
 }
 
 .post-header .meta {
-  font-size: 15px;
+  font-size: 17px;
   color: #818181;
   margin-top: 5px;
 }
