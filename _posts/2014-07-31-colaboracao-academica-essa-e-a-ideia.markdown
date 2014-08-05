@@ -25,13 +25,13 @@ Foi quando vi essa frase dita por [Christian Heilmann](http://christianheilmann.
 
 > “If you try to teach you end up learning”
 
-Foi apartir dessa citação que resolvi desenvolver esse projeto. Tentar ajudar outros estudantes e acabar me ajudando ao mesmo tempo. 
+Foi a partir desse desejo de melhoria e da citação acima que surgiu a ideia inicial desse projeto. Tentar ajudar outros estudantes e acabar me ajudando ao mesmo tempo. 
 
 Outros fatores que também me incentivaram a desenvolver esse blog foi a vontade de entrar no mundo [Open Source](http://opensource.org/) e no desenvolvimento colaboratiro. E é por isso que o código desse site é aberto e se encontra no [Github](https://github.com/vinimdocarmo/help-me-out).
 
 ###E você, o que tem a ver com isso?
 
-Se você gostou da ideia e quer ajudar ou ser ajudado, esse blog também é feito pra você!
+Se você gostou da ideia e quer ajudar ou ser ajudado, esse blog também é feito pra você! Nós, como estudantes de computação, podemos criar através desse projeto um ambiente colaborativo de ajuda acadêmica. Todos se ajudam e no final todos saem ganhando.
 
 ###Pra finalizar
 
@@ -43,5 +43,5 @@ Esse semestre em particular estarei postando sempre que possível sobre as segui
 
 Não se esqueça que você também pode ajudar escrevendo sua própria postagem ou coloborando com o projeto. Clique [aqui]({{ site.be_an_author }}) para mais detalhes.
 
-Se você tem alguma dúvida, pergunta ou crítica pra fazer, sinta-se a vontade para comentar abaixo ou entre em contato.
+Se você tem alguma dúvida, pergunta ou crítica pra fazer, sinta-se a vontade para comentar abaixo ou [entre em contato](/contact).
 
