@@ -29,3 +29,9 @@ jekyll serve
 Agora o site estará rodando em [localhost:4000](http://localhost:4000)! :tada: 
 
 _Para mais informações de como o Jekyll funciona, clique [aqui](http://jekyllrb.com/docs/home/)._
+
+##Fazendo o deploy no Heroku
+
+Se você preferiri, faça o deploy direto em sua conta do Heroku:
+
+[![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
