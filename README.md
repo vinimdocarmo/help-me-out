@@ -6,7 +6,7 @@ Projeto que tem como enfoque ajudar os alunos de computação da [UFC](http://uf
 
 Este projeto usa o [Jekyll](http://jekyll.com), um gerador estático em Ruby.
 
-##Passo-a-passo
+###Passo-a-passo
 
 Instale o [Git](http://git-scm.com/downloads) e o [Jekyll](http://jekyllrb.com/docs/installation/).
 
@@ -30,8 +30,8 @@ Agora o site estará rodando em [localhost:4000](http://localhost:4000)! :tada:
 
 _Para mais informações de como o Jekyll funciona, clique [aqui](http://jekyllrb.com/docs/home/)._
 
-##Fazendo o deploy no Heroku
+##Deploy no Heroku
 
-Se você preferiri, faça o deploy direto em sua conta do Heroku:
+Se você preferir, faça o deploy direto em sua conta do Heroku:
 
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
