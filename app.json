@@ -1,0 +1,10 @@
+{
+  "name": "Help Me Out",
+  "description": "O blog de colaboração acadêmica do curso de computação da UFC.",
+  "keywords": [
+    "ruby",
+    "jekyll"
+  ],
+  "website": "https://help-me-out.herokuapp.com",
+  "repository": "https://github.com/vinimdocarmo/help-me-out"
+}
