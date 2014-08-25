@@ -70,6 +70,10 @@ hr.fancy {
     background-image:      -o-linear-gradient(left, rgba(114,114,114,0), rgba(114,114,114,0.75), rgba(114,114,114,0)); 
 }
 
+.lineno {
+  opacity: 0.3;
+}
+
 /* Layout Styles */
 /* ----------------------------------------------------------*/
 
