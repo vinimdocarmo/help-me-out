@@ -4,7 +4,7 @@ title:  "Entenda Ponteiros em C de uma vez por todas!"
 date:   2014-08-22 18:30:00
 author: "Vinícius do Carmo"
 author_contact: "http://vinimdocarmo.github.io"
-tags: 
+tags: C, ponteiros, programação, CK0110
 ---
 
 Uma das coisas que os iniciantes em C sentem mais dificuldade é o conceito de ponteiros. O propósito desse post é fornecer uma introdução para ponteiros e seus usos para estes iniciantes.<!--more-->
@@ -56,19 +56,19 @@ j = 7;
 k = j; 
 {% endhighlight %}
 
-No exemplo acima, o compilador interpreta o **j** na linha 4 como sendo o endereço da variável **j** (seu __*lvalue*__) e copia o valor 7 para aquele endereço. Entretando, na linha linha 5 o **j** é interpretado como seu __*rvalue*__ (desde que seja no lado direito do operador de atribuição `=`). Ou seja, aqui o **j** refere-se ao valor armazenado no local de memória alocado para **j**, nesse caso 7. Então o 7 é copiado para o endereço de memória designado para o __*lvalue*__ de **k**.
+No exemplo acima, o compilador interpreta o **j** na linha 4 como sendo o endereço da variável **j** (seu __*lvalue*__) e copia o valor 7 para aquele endereço. Entretando, na linha linha 5 o **j** é interpretado como seu __*rvalue*__ (desde que esteja no lado direito do operador de atribuição `=`). Ou seja, aqui o **j** refere-se ao valor armazenado no local de memória alocado para **j**, nesse caso 7. Então o 7 é copiado para o endereço de memória designado para o __*lvalue*__ de **k**.
 
 ### Ponteiros em C
 
-Agora, digamos que nós temos uma razão para querer que uma variável seja designada a guardar um __*lvalue*__ (um endereço). Tal variável é chamada de **variável ponteiro** (por razões que irão se torna mais claras depois). Em C, quando queremos definir uma variável ponteiro colocamos um arterísco antes do nome da variável. Em C, nós também damos à nossa variável ponteiro um tipo que, nesse caso, refere-se ao tipo de dado guardado no endereço que iremos guardar na nossa variável ponteiro. Por exemplo, considere a declaração de variável ponteiro:
+Agora, digamos que nós temos uma razão para querer que uma variável seja designada a guardar um __*lvalue*__ (um endereço). Tal variável é chamada de **variável ponteiro** (por razões que irão se tornar mais claras depois). Em C, quando queremos definir uma variável ponteiro colocamos um arterísco antes do nome da variável. Em C, nós também damos à nossa variável ponteiro um tipo que, nesse caso, refere-se ao tipo de dado guardado no endereço que iremos guardar na nossa variável ponteiro. Por exemplo, considere a declaração de variável ponteiro:
 
 {% highlight c %}
 int *ptr;
 {% endhighlight %}
 
-**ptr** é o nome da nossa variável (tal como **k** foi o nome da nossa variável no exemplo mais acima). O `*` informa ao compilador que nós queremos uma variável ponteiro, isto é, alocar uma quantidade de bytes necessária para guardar um endereço na memória. O `int` diz que nós pretendemos usar nosso ponteiro para guardar um endereço de um inteiro. Tal variável "aponta" para um inteiro. Entretanto, note que quando escrevemos `int k;` nós não demos a `k` um valor. Se essa declaração for feita forade qualquer função, a variável `k` será inicializada com o valor 0. Similarmente, não atribuimos nenhum valor a `ptr` na declaração do exemplo acima. Nesse caso, se a declaração for feita fora de qualquer função, `ptr` será inicializado com um certo que garante não "apontar" para nenhum objeto C ou função. Uma ponteiro inicializado dessa maneira é chamado de ponteiro nulo.
+**ptr** é o nome da nossa variável (tal como **k** foi o nome da nossa variável no exemplo mais acima). O `*` informa ao compilador que nós queremos uma variável ponteiro, isto é, alocar uma quantidade de bytes necessária para guardar um endereço na memória. O `int` diz que nós pretendemos usar nosso ponteiro para guardar um endereço de um inteiro. Tal variável "aponta" para um inteiro. Entretanto, note que quando escrevemos `int k;` nós não demos a `k` um valor. Se essa declaração for feita fora de qualquer função, a variável `k` será inicializada com o valor 0. Similarmente, não atribuimos nenhum valor a `ptr` na declaração do exemplo acima. Nesse caso, se a declaração também for feita fora de qualquer função, `ptr` será inicializado com um certo que garante não "apontar" para nenhum objeto C ou função. Uma ponteiro inicializado dessa maneira é chamado de ponteiro nulo.
 
-Em C um macro é usado para representar um ponteiro nulo. Esse macro vem com o nome NULL. Logo, declarar uma variável usando o macro NULL, tal como numa declaração do tipo `ptr = NULL`, garante que o ponteiro é um ponteiro nulo. 
+Em C, um macro é usado para representar um ponteiro nulo. Esse macro vem com o nome NULL. Logo, declarar uma variável usando o macro NULL, tal como numa declaração do tipo `ptr = NULL`, garante que o ponteiro é um ponteiro nulo. 
 
 Da mesma forma que podemos testar se um valor de uma variável inteira é igual a 0 usando`if(k == 0)`, nós também podemos testar se um ponteiro é um ponteiro nulo usando `if(ptr == NULL)`.
 
@@ -78,7 +78,7 @@ Suponha que agora nós queremos guardar em `ptr` o endereço da nossa variável 
 ptr = &k;
 {% endhighlight %}
 
-O que o operador `&` faz é recuperar o __*lvalue*__ (endereço) de `k` (embora `k` esteja do lado direito do operador de atribuição `=`) e copia este endereço no conteúdo do nosso ponteiro `ptr`. Agora, `ptr` está "apontando" para `k`. Agora só tem mais um operador que precisamos discutir.
+O que o operador `&` faz é recuperar o __*lvalue*__ (endereço) de `k` (embora `k` esteja do lado direito do operador de atribuição `=`) e copia este endereço no conteúdo do nosso ponteiro `ptr`. Agora, `ptr` está "apontando" para `k`. Agora, só tem mais um operador que precisamos discutir.
 
 O operador unário `*` é usado da seguinte forma. Considere esse trecho de código:
 
