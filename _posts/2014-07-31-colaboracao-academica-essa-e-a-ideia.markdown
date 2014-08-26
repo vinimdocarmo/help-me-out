@@ -4,7 +4,7 @@ title:  "Coloboração acadêmica, essa é a ideia!"
 date:   2014-07-31 11:17:00
 author: "Vinícius do Carmo"
 author_contact: "http://vinimdocarmo.github.io"
-tags: helloworld
+tags: hello world
 ---
 
 Hello, World! Com o maior (e porque não, o mais legal) clichê do mundo computacional, começo escrevendo esse post.
