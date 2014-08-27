@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Entenda Ponteiros em C de uma vez por todas!"
-date:   2014-08-22 18:30:00
+date:   2014-08-27 12:21:00
 author: "Vinícius do Carmo"
 author_contact: "http://vinimdocarmo.github.io"
 tags: C, ponteiros, programação, CK0110
