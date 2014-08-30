@@ -54,4 +54,4 @@ jekyll serve --watch
  
 ###Método 2
  
-Caso você não não conheça as ferramentas requiridas pelo [método 1](https://github.com/vinimdocarmo/help-me-out/blob/master/CONTRIBUTING.md#m%C3%A9todo-1-mais-complicado), mande email para <a href="mali:helpmeout.comp@gmail.com">helpmeout.comp@gmail.com</a> com sua proposta de postagem. Iremos discutir a respoeito para saber se ela é viável. Caso seja, escreva seu post usando formatação [markdown][markdown] e me mande o que você fez pela mesma thread do e-mail com a discussão a respeito da postagem.
+Caso você não não conheça as ferramentas requiridas pelo [método 1](https://github.com/vinimdocarmo/help-me-out/blob/master/CONTRIBUTING.md#m%C3%A9todo-1-mais-complicado), mande email para <a href="mali:helpmeout.comp@gmail.com">helpmeout.comp@gmail.com</a> com sua proposta de postagem. Iremos discutir a respeito para saber se ela é viável. Caso seja, escreva seu post usando formatação [markdown][markdown] e me mande o que você fez pela mesma thread do e-mail com a discussão a respeito da postagem.
